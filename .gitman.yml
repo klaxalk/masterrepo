@@ -22,3 +22,29 @@ sources:
       -
     scripts:
       - git submodule update --init --recursive
+sources_locked:
+  - repo: https://github.com/klaxalk/subrepo1
+    name: subrepo1
+    rev: 1570e3e486cea1ec9efb13acf03dfdbc5cf299f9
+    type: git
+    sparse_paths:
+      -
+    link: subrepo1
+    links:
+      -
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/klaxalk/subrepo2
+    name: subrepo2
+    rev: ebd3843f7482b10ea6875ec636e7b271e28bd7c4
+    type: git
+    sparse_paths:
+      -
+    link: subrepo2
+    links:
+      -
+    scripts:
+      - git submodule update --init --recursive
+default_group: ''
+groups:
+  -
